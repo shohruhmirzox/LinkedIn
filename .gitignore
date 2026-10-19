@@ -1,0 +1,4 @@
+# keep personal voice/plan/log out of the public repo
+.claude/linkedin/voice.md
+.claude/linkedin/plan.md
+.claude/linkedin/log.md

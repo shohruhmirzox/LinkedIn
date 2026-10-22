@@ -9,3 +9,7 @@ This repo ships the 11 `li-*` skills from avi691/linkedin-agent-skill (MIT) in `
 - Facts: only numbers listed in voice.md or the `linkedin-personal-brand` skill. Never invent a metric.
 - Claude drafts, Shokh posts. Never publish, message or log into LinkedIn.
 - Humanizer: `python3 .claude/skills/li-human/humanize.py draft.txt -o clean.txt --report`, then `python3 .claude/skills/li-human/detect.py draft.txt clean.txt`.
+
+## Other skills
+
+- `techtalk-job-assistant` (`.claude/skills/techtalk-job-assistant/`): role discovery, CV tailoring, cover letters, LinkedIn optimization. Kept exactly as uploaded. Upload copy for claude.ai chats: `/mnt/project-files/skills/techtalk-job-assistant.zip`.
